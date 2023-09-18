@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="source/favicon.ico">
+    <title>Drink Market</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Drink Market🍸</h1>
+        <form>
+            <input type="text" id="finder" name="finder" placeholder="Find...">
+            <button type="button">🔍</button>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#categories">Categories</a></li><hr>
+            <li><a href="#discounts">Discounts</a></li><hr>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <main>
+      <h1>Our products</h1><br>
+      <div class="items">
+        <div class="product">
+          <img src="source/emerald.jpg" height="300px" alt="Напиток 1"><hr>
+          <div class="product-text">
+            <h2>Tassay Emerald</h2>
+            <h4><strong>0.75L</strong></h4>
+            <details>
+                <summary><small><b>Energy value</b></small></summary>
+                <table>
+                    <p id="p">Main composition</p>
+                    <tr>
+                      <td>Na</td>
+                      <td>K</td> 
+                      <td>Ca</td>
+                    </tr>
+                    <tr>
+                      <td>1-15</td>
+                      <td>0-5</td> 
+                      <td>10-45</td>
+                    </tr>
+                  </table>
+          </details>
+          <span class="price"><i>&euro;2.99</i></span><br>
+          
+          </div>
+          <h5>Available<button class="buy-button"><em>Add to cart</em></button></h5>
+        </div>
+        <div class="product">
+          <img src="source/excellent.jpg" height="300px" alt="Напиток 2"><hr>
+          <div class="product-text">
+            <h2>Tassay Excellent</h2>
+            <h4><strong>0.75L</strong></h4>
+            <details>
+                <summary><small><b>Energy value</b></small></summary>
+                <table>
+                    <p id="p">Main composition</p>
+                    <tr>
+                      <td>Na</td>
+                      <td>K</td> 
+                      <td>Ca</td>
+                    </tr>
+                    <tr>
+                      <td>1-15</td>
+                      <td>0-5</td> 
+                      <td>10-45</td>
+                    </tr>
+                  </table>
+            </details>
+            <span class="price"><i>&euro;1.99</i></span><br>
+          </div>
+          <h5>Available<button class="buy-button"><em>Add to cart</em></button>  </h5>
+        </div>
+        <div class="product">
+          <img src="source/still.jpg" height="300px" alt="Напиток 2"><hr>
+          <div class="product-text">
+            <h2>Tassay Still</h2>
+            <h4><strong>0.75L</strong></h4>
+            <details>
+                <summary><small><b>Energy value</b></small></summary>
+                <table>
+                    <p id="p">Main composition</p>
+                    <tr>
+                      <td>Na</td>
+                      <td>K</td> 
+                      <td>Ca</td>
+                    </tr>
+                    <tr>
+                      <td>1-15</td>
+                      <td>0-5</td> 
+                      <td>10-45</td>
+                    </tr>
+                  </table>
+            </details>
+            <span class="price"><i>&euro;1.29</i></span><br>            
+          </div>
+          <h5>Available<button class="buy-button"><em>Add to cart</em></button></h5>
+        </div>
+        <div class="product">
+          <img src="source/sparkling.jpg" height="300px" alt="Напиток 2"><hr>
+          <div class="product-text">
+            <h2>Tassay Sparkling</h2>
+            <h4><strong>0.75L</strong></h4>
+            <details>
+                <summary><small><b>Energy value</b></small></summary>
+                <table>
+                  <p id="p">Main composition</p>
+                    <tr>
+                      <td>Na</td>
+                      <td>K</td> 
+                      <td>Ca</td>
+                    </tr>
+                    <tr>
+                      <td>1-15</td>
+                      <td>0-5</td> 
+                      <td>10-45</td>
+                    </tr>
+                  </table>
+            </details>
+            <span class="price"><i>&euro;1.49</i></span><br>
+          </div>
+          <h5>Available<button class="buy-button"><em>Add to cart</em></button></h5>
+        </div>
+      </div>
+    </main>
+    <h6>New products will be soon...</h6>
+    <footer>
+      <div>
+        <h3>Send your data and we'll call you later!</h3>
+        <form>
+            <label for="input-name">Name:</label><br>
+            <input type="text" id="input-name" name="input-name" placeholder="Your name..."><br>
+            <label for="input-email">E-mail:</label><br>
+            <input type="text" id="input-email" name="input-email" placeholder="Your E-mail..."><br>
+            <button type="button">Send</button>
+        </form>
+        <br>
+        <form>
+            <label for="media">Our media</label>
+            <input list="medias" name="media" id="media">
+            <datalist id="medias">
+                <ol>
+                    <li>1<option value="Instagram"></option></li>
+                    <li>1<option value="Telegram"></option></li>
+                    <li>1<option value="Twitter"></option></li>
+                </ol>
+            </datalist>
+          </form>
+          <br>
+        <p>Site were created in <time datetime="2023-09-17">17.09.2023</time>.</p>
+      </div>
+    </footer>
+</body>
+</html>
